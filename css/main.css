@@ -2557,7 +2557,7 @@ button.button {
       margin-right: auto; } }
 
       .header-58__text{
-        font-weight: 400;
+        color: #666;
       }
 
 .header-07__cta_box, .header-23__cta_box, .header-24__cta_box, .header-25__cta_box, .header-58__cta_box {
@@ -9294,7 +9294,7 @@ button.button {
 .text--03__right {
   width: 45%;
 }
-.text--03__right p {font-weight: 400;}
+.text--03__right p {color: #666;}
   .text--03__right p:first-of-type {
     margin-top: 0; }
   @media (max-width: 700px) {
