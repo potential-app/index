@@ -1428,8 +1428,8 @@ button.button {
 .feature__icon {
   vertical-align: middle;
   margin-right: 15px;
-  max-height: 40px;
-  max-width: 40px;
+  max-height: 32px;
+  max-width: 32px;
   width: 100%; }
 
 .feature__link {
@@ -2555,6 +2555,10 @@ button.button {
     .header-07__text, .header-23__text, .header-24__text, .header-25__text, .header-58__text {
       margin-left: auto;
       margin-right: auto; } }
+
+      .header-58__text{
+        font-weight: 400;
+      }
 
 .header-07__cta_box, .header-23__cta_box, .header-24__cta_box, .header-25__cta_box, .header-58__cta_box {
   margin-top: 45px; }
@@ -9260,7 +9264,9 @@ button.button {
   margin-top: 20px; }
 
 .text--03 {
-  padding: 70px 0 70px; }
+  padding: 70px 0 70px;
+  font-weight: 400;
+}
 
 .text--03__wrapper {
   display: flex;
@@ -9286,7 +9292,9 @@ button.button {
       font-size: 20px; } }
 
 .text--03__right {
-  width: 45%; }
+  width: 45%;
+}
+.text--03__right p {font-weight: 400;}
   .text--03__right p:first-of-type {
     margin-top: 0; }
   @media (max-width: 700px) {
